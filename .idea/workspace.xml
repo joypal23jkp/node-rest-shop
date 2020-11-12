@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71240006-405b-42c9-83a7-c346981a5bc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598705945023rating1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598706094590rating1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598706559058rating1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598904872831Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598904940928Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598905172428Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598905283069Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598905310072Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598905320477Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598905328814Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598905561351Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598905584085Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1598905643715Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/eb465cb4b09ef4b1c8c80edfb4fb93a5" beforeDir="false" />
-    </list>
+    <list default="true" id="71240006-405b-42c9-83a7-c346981a5bc0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +42,7 @@
       <updated>1598908689553</updated>
       <workItem from="1598908691146" duration="356000" />
       <workItem from="1598972663650" duration="215000" />
-      <workItem from="1605180560827" duration="6762000" />
+      <workItem from="1605180560827" duration="7091000" />
     </task>
     <servers />
   </component>
