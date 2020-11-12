@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71240006-405b-42c9-83a7-c346981a5bc0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598705945023rating1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598706094590rating1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598706559058rating1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598904872831Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598904940928Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598905172428Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598905283069Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598905310072Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598905320477Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598905328814Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598905561351Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598905584085Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1598905643715Lorna Alvaradon Sacoro Hospital 123-456-7890.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/eb465cb4b09ef4b1c8c80edfb4fb93a5" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gsgPWbdIsDmUFgVUgY5eomNLo5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/vue-argon-design-system-master/share-bookBD" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProJects\js\node\node-rest-shop" />
+      <recent name="D:\ProJects\js\node\node-rest-shop\ pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71240006-405b-42c9-83a7-c346981a5bc0" name="Default Changelist" comment="" />
+      <created>1598908689553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598908689553</updated>
+      <workItem from="1598908691146" duration="356000" />
+      <workItem from="1598972663650" duration="215000" />
+      <workItem from="1605180560827" duration="6762000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2106" y="295" key="FileChooserDialogImpl" timestamp="1598972877477">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2106" y="295" key="FileChooserDialogImpl/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598972877477" />
+    <state x="2190" y="438" key="Github.ShareDialog" timestamp="1598908819487">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2190" y="438" key="Github.ShareDialog/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598908819487" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/api/controllers/user.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

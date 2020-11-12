@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan')
 const mongoose = require('mongoose');
 const checkAuth = require('./api/middleware/check-auth')
+const path = require('path');
 
 //db connection
 mongoose.connect(
@@ -36,6 +37,10 @@ app.use(bodyParser.json());
 // })
 
 // Handling incoming request
+app.use('/', function (req, res) {
+  console.log('it is done');
+  res.sendFile(path.join(__dirname+ '/index.html'))
+})
 app.use('/products', productRoutes)
 app.use('/orders', checkAuth, orderRoutes)
 app.use('/user', userRoutes)

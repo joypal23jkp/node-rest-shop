@@ -5,26 +5,17 @@ const bcrypt = require('bcrypt');
 const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 
-exports.get_user =  (req, res) => {
-    User.find()
-    .select('_id quantity product')
-    .exec()
-    .then(result => {
-        res.status(200).json({
-            count: result.length,
-            orders: result.map(doc => {
-                return {
-                    _id :doc._id,
-                    product:doc.productId,
-                    quantity:doc.quantity
-                }
-            })
+exports.get_user =  async (req, res) => {
+    // User.find({}, (err, result) => {
+    //     err && res.json(err)
+    //     res.json(result)
+    // })
 
-        })
-    })
-    .catch(err => {
-        res.status(500).json(err)
-    });
+    try {
+        res.json(await User.find().exec())
+    } catch(e) {
+        res.send(e.message)
+    }
 };
 
 exports.signUp =  (req, res) => {
@@ -37,17 +28,14 @@ exports.signUp =  (req, res) => {
             })
         }else{
             // req.body.email
-            bcrypt.hash('1234', 10, (err, hash) => {
+            bcrypt.hash(req.body.password, 10, (err, hash) => {
                 if(err) {
                     return res.status(500).json({
                         error: err
                     });
                 }else{
-                    const user = new User({
-                        _id :  mongoose.Types.ObjectId(),
-                        email : req.body.email,
-                        password: hash
-                    })
+                    req.body.password = hash
+                    const user = new User(req.body)
                     user.save()
                     .then(result => {
                         console.log(result)

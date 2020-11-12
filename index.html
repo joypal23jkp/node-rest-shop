@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Node Rest Order</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="home-container container">
+        <div class="alert alert-secondary font-weight-bold text-center mt-3" role="alert">
+            Node API Store
+        </div>
+        <div class="content-body">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title">API Overview</h5>
+                    <p class="card-text">This is A Simple Stock Management Api with strong authentication system.
+                        <a href="https://www.npmjs.com/package/jwt-auth">JWT</a> auth made this work more easy. Later All Api routes are going to be described...
+                    </p>
+                </div>
+            </div>
+
+            <div class="card w-100 my-3">
+                <div class="card-body">
+                    <h5 class="card-title">Orders API</h5>
+                    <p class="card-text">
+                        These API routes will be used for placing orders...
+                    </p>
+                    <ul>
+                        <li>Get All Orders : { '/' } </li>
+                        <li>Get Order: { '/:orderId' } </li>
+                        <br>
+                        <li>POST Order: { '/' } - [quantity -> int, productId ] </li>
+                        <li>PATCH Order: { '/:orderId' } - [quantity -> int, productId ] </li>
+                        <li>REMOVE Order: { '/:orderId' } </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card w-100 my-3">
+                <div class="card-body">
+                    <h5 class="card-title">Products API</h5>
+                    <p class="card-text">
+                        These API routes will be used for moderating Products...
+                    </p>
+                    <ul>
+                        <li>Get All Products : { '/' } </li>
+                        <li>Get Products: { '/:productId' } </li>
+                        <br>
+                        <li>POST Products: { '/' } - [name -> string, price->double, image: string ] </li>
+                        <li>PATCH Products: { '/:productId' } - [name -> string, price->double, image: string ] </li>
+                        <li>REMOVE Products: { '/:productId' } </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card w-100 my-3">
+                <div class="card-body">
+                    <h5 class="card-title">User API</h5>
+                    <p class="card-text">
+                        These API routes will be used for moderating Users...
+                    </p>
+                    <ul>
+                        <li>Get User: { '/' } </li>
+                        <br>
+                        <li>POST Req > signUP: { '/signup' } - [email ] </li>
+                        <li>POST Req > Login: { '/login' } - [email, password ] </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-footer">
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading text-center">Well done!</h4>
+            <p class="text-center">
+                Thank You ! That you have scroll the websites........
+            </p> <hr>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
