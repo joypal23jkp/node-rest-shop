@@ -8,3 +8,20 @@
 - Get Order: { '/:orderId' }
 - POST Order: { '/' } - [quantity -> int, productId ]
 - PATCH Order: { '/:orderId' } - [quantity -> int, productId ]
+- REMOVE Order: { '/:orderId' }
+
+## Products API
+**These API routes will be used for moderating Products...**
+- Get All Products : { '/' }
+- Get Products: { '/:productId' }
+- POST Products: { '/' } - [name -> string, price->double, image: string ]
+- PATCH Products: { '/:productId' } - [name -> string, price->double, image: str
+- REMOVE Products: { '/:productId' }
+
+## Users API
+**These API routes will be used for moderating Users...**
+- Get User: { '/' }
+- POST Req > signUP: { '/signup' } - [email ]
+- POST Req > Login: { '/login' } - [email, password ]
+
+** Thank You ! That you have scroll the websites........**
