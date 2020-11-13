@@ -24,4 +24,4 @@
 - POST Req > signUP: { '/signup' } - [email ]
 - POST Req > Login: { '/login' } - [email, password ]
 
-** Thank You ! That you have scroll the websites........**
+**Thank You ! That you have scroll the websites........**
