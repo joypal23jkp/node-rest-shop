@@ -4,8 +4,7 @@
 
 ## Orders API
 **These API routes will be used for placing orders...**
-
--Get All Orders : { '/' }
--Get Order: { '/:orderId' }
--POST Order: { '/' } - [quantity -> int, productId ]
--PATCH Order: { '/:orderId' } - [quantity -> int, productId ]
+- Get All Orders : { '/' }
+- Get Order: { '/:orderId' }
+- POST Order: { '/' } - [quantity -> int, productId ]
+- PATCH Order: { '/:orderId' } - [quantity -> int, productId ]
